@@ -62,7 +62,7 @@ void loop() {
   }
 
   if (angle > 255) {
-    angle = 254;
+    angle = 255;
   }
 
   if (angle < 0) {
